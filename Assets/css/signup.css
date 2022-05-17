@@ -65,3 +65,11 @@
     font-weight: 400;
     outline: none;
 }
+
+.sign-up > i{
+    position: relative;
+    top:50px;
+    left: 0;
+    color: #0863A6;
+
+}
