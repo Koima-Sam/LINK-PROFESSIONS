@@ -156,15 +156,41 @@ padding-top: 0px;
   padding: 10px;
   height: 50vh;
 
-  /* background-color: #D9D9D9;
-  padding: 25px;
-  border-radius: 15px;
-  font-family:'Arial Narrow Bold'; */
-
+}
+.jobs .job-1 {
+  display: flex;
+ padding: 12px;
+ margin: 15px;
+ background-color: #D9D9D9;
 }
 .jobs .job-1 .images{
   display: flex;
+ padding: 12px;
+ margin: 15px;
+ 
+ 
 }
+.jobs .job-1 .images .logo img{
+  background-color: red;
+ width: 150px;
+ height: 100px;
+ justify-content: space-between;
+ 
+}
+
+.jobs .job-1 .images .logo{
+ padding: 17px;
+ margin: 15px;
+ background-color: white;
+ box-shadow: 7px 10px #888888;
+}
+.jobs .job-1 .images .logo a{
+  
+  color:white; 
+  background-color: #0863a6;
+  
+ }
+  
  
 
 /*-----bio data----------*/
