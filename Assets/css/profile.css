@@ -113,7 +113,8 @@ li{
     padding: 15px;
 }
 .cprt{
-   display: block;
-   font-weight: lighter;
+    display: block;
+    font-weight: lighter;
     margin-left: 40%;
+    color: #0863A6;
 }
