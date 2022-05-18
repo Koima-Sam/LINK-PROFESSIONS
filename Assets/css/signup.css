@@ -58,7 +58,7 @@
     margin: 40px 500px 40px 300px;
 }
 
-#register{
+#register, #login{
     text-align: center;
     margin: 20px 100px;
     background-color: #0863A6;
