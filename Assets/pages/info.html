@@ -43,49 +43,36 @@
 
 <div class="select">
 
-     <ul>
-         <li class="upload"> <a href="#">UPLOAD<i class="fas fa-caret-down"></i></a>
-             <div class="dropdown">
-                <ul>
-                     <li class="dropdown-link">
-                        <a href="#"></a>
-                        </li>
-                      <li class="dropdown-link">
-                          <a href="#"></a>
-                        </li>
-                      <li class="dropdown-link">
-                         <a href="#"></a>
-                       </li>
-                      <li class="dropdown-link">
-                        <a href="#"></a>
-                      </li>
-                     <li class="dropdown-link">
-                         <a href="#"></a>
-                      </li>
-                </ul>
-            </div>
-        </li>
+  <ul>
+    
+     <li>UPLOAD
+        <form action="/action_page.php">
+          <input type="file" id="myFile" name="filename">
+          <input type="submit">
+        </form>
+
+       
+      </li>    
      
  <!-- download  -->
+ 
                     
  <li class="upload"> <a href="#">DOWNLOAD<i class="fas fa-caret-down"></i></a>
   <div class="dropdown">
      <ul>
           <li class="dropdown-link">
-             <a href="#"></a>
+             <a href="/Assets/documents/cv.docx" download >Cirriculum Viate</a>
+           </li>
+           <li class="dropdown-link">
+               <a href="/Assets/documents/cert.jpg" download>Certificate</a>
              </li>
            <li class="dropdown-link">
-               <a href="#"></a>
-             </li>
-           <li class="dropdown-link">
-              <a href="#"></a>
+              <a href="/Assets/documents/ID LINCOLIN.pdf" download>Nation ID</a>
             </li>
            <li class="dropdown-link">
-             <a href="#"></a>
+             <a href="/Assets/documents/PASSPORT.jpg">Passport</a>
            </li>
-          <li class="dropdown-link">
-              <a href="#"></a>
-           </li>
+          
      </ul>
  </div>
 </li>
