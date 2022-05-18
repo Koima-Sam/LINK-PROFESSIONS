@@ -232,10 +232,35 @@ transition: 0.5sec;
   display: flex;
   justify-content: space-between;
   margin: 40px;
-  background-color: red;
   align-items: center;
 }
+.work .data-work .row-2 .flex .details ul{
+  border: 1px solid white;
+  padding: 12px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 7px 10px #888888;
+ 
+}
+.work .data-work .row-2 .flex .details ul li{
+  font-size: 32px;
+  padding: 10px;
 
+}
+.work .data-work .row-2 .flex .right ul li{
+  font-size: 32px;
+  padding: 10px;
+
+}
+
+
+.work .data-work .row-2 .flex .right ul{
+  border: 1px solid white;
+  padding: 12px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 7px 10px #888888;
+}
 /*-----skills----------*/
 .skills{
   margin-top: 530px;
