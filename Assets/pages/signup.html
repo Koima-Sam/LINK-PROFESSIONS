@@ -31,7 +31,7 @@
         </div>
         <!--Container for registration form-->
         <div class="form-container">
-            <form class="sign-up">
+            <form class="sign-up" onsubmit="return(createUser())" name="Register">
                 <i class="fa fa-user"></i>
                 <input type="text" id="name" class="txtinput" name="fullname" placeholder="      Your Full Name" > <br>
 
@@ -42,17 +42,19 @@
                 <input type="password" id="password" class="txtinput" name="userPassword" placeholder="      Create your password" ><br>
 
                 <i class="fa fa-lock"></i>
-                <input type="password" id ="passowrd2" name="userPassword" class="txtinput" placeholder="       Retype your password" ><br>
+                <input type="password" id ="passowrd2" name="userPassword2" class="txtinput" placeholder="       Retype your password" ><br>
 
             
                 <input type="submit" value="Sign Up" id="register"> 
 
+                <script src="../javascript/register.js"></script>
+            </form>
                 <p>Already have an account ? <span class="sign"> <a href="../pages/signin.html">Sign In</a></span></p>
 
                 <h3>------------Find Our Social Media Pages below:------------</h3>
             
     
-            </form>
+           
             <div class="social">
                 <!--Social meadia handles-->
                 <img src="../images/google.png" alt="google">
@@ -61,8 +63,5 @@
                 <img src="../images/facebook].png" alt="fb">
             </div>
         </div>
-        
-    </div>
-    
     </body>
 </html>
