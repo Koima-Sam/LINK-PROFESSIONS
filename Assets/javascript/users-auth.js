@@ -14,8 +14,6 @@ let users = {
     }
 };
 
-console.log()
-
 
 function valUsers(){
 
