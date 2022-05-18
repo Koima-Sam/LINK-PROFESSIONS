@@ -26,7 +26,7 @@
 }
 
 h1{
-    font-size: 50px;
+    font-size: 30px;
     color: #0863A6;
 }
 
@@ -40,11 +40,12 @@ h1{
     padding: 25px;
     background-color: #0863A6;
     color: white;
-    border-color: white;
+    border-color: black;
     border-radius: 25px;
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 50px;
     margin-left: 650px;
+    border-bottom: 2px;
 }
 
 
@@ -52,6 +53,9 @@ h1{
 #ldg-transition{
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #ldg-transition > .trans{
@@ -64,10 +68,11 @@ h1{
 
 #ldg-transition > .trans > .lefty{
     display: block;
+    width: 50%;
 }
 
 #ldg-transition > .trans > .lefty > h2{
-    font-size: 50px;
+    font-size: xx-large;
     color: #0863A6;
     margin-left: 100px;
     margin-right: 75px;
@@ -75,7 +80,7 @@ h1{
 }
 
 #ldg-transition > .trans > .lefty > p{
-    font-size: 32px;
+    font-size: x-large;
     margin-left: 100px;
     margin-right: 80px;
     text-align: left;
@@ -83,7 +88,7 @@ h1{
 
 .getstarted{
     padding: 25px;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #0863A6;
     color: white;
     border-color: white;
@@ -101,7 +106,7 @@ h1{
 #reach{
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 10vh;
+    height: 110vh;
 }
 
 #reach > .span{
@@ -109,7 +114,7 @@ h1{
 }
 
 h3{
-    font-size: 55px;
+    font-size: 25px;
     color: #0863A6;
     margin-left: 100px;
     margin-right: 150px;
@@ -132,6 +137,26 @@ h3{
 .reachdata{
     display: flex;
     align-items: center;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 900;
+}
+
+/* PARTNERS */
+#partna{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100vh;
+}
+
+.partners{
+    display: flex;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
