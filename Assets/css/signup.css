@@ -69,8 +69,10 @@
     font-weight: 400;
     outline: none;
 }
-.sign{
+.sign > a{
+    text-decoration: none;
     color: #0863A6;
+
 
 }
 
