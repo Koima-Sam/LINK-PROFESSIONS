@@ -38,5 +38,181 @@ h4{
   top: 0px;
   background-color: #D9D9D9;
   width: 100%;
-  z-index: 1000;
+  height: 60vh;
 }
+/*--navigation bar-----*/
+.header .head .nav-bar{
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.header .head .nav-bar .logo img{
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+}
+header .head .nav-bar .logo {
+  display: inline-block;
+}
+.header .head .nav-bar .logo h2{
+font-size: 20px;
+padding-top: 0px;
+ 
+
+}
+ 
+.header .head .nav-bar nav ul li{
+  display: inline-block;
+  padding: 25px;
+  align-items: center;
+  text-align: center;
+  padding-top: 29px;
+  color: #0863a6;
+  font-size: 22px;
+  font-weight: 400;
+  }
+
+  .header .head .container{
+    display: flex;
+    margin-left: 24px;
+    gap: 400px;
+    align-items: center;
+  }
+  
+
+   
+  .header .head .container h1{
+    color: #0863a6;
+    padding: 25px;
+    padding-bottom: 0px;
+    font-size: 33px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    
+  }
+  .header .head .container p{
+    top: 15px;
+    padding-top: 0px;
+    padding: 25px;
+    padding-bottom:0px;
+    font-size: 23px;
+    line-height: 2;
+    font-family:'Arial Narrow Bold';
+    
+  }
+ 
+
+/*-----bio data----------*/
+.bio
+{
+  padding: 10px;
+  margin: 10px;
+  height: 50vh;
+}
+.bio .data .dat
+{
+  display: flex;
+  background-color: #D9D9D9;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 15px;
+  font-family:'Arial Narrow Bold';
+  align-items: center;
+    
+}
+.bio .data .dat .dat-1
+{
+  padding: 23px;
+  align-items: center;
+    
+}
+.bio .data .dat .data-1 ul li
+{
+  padding: 23px;
+  align-items: center;
+  font-size: 35px;
+    
+}
+.bio .data .dat .data-2 ul li
+{
+  padding: 23px;
+  align-items: center;
+  font-size: 35px;
+    
+}
+/*-----educationa background----------*/
+
+.edu
+{
+  padding: 10px;
+  margin: 10px;
+  height: 50vh;
+}
+.edu .school
+{
+  background-color: #D9D9D9;
+  padding: 30px;
+  border-radius: 15px;
+  font-family:'Arial Narrow Bold';
+
+}
+.edu .school .data-school
+{
+  display :flex;
+  padding: 22px;
+  
+}
+.edu .school .data-school h5
+{
+
+padding: 22px;
+font-size: 30px;
+border: 1px solid white;
+border-radius: 12px;
+font-weight: lighter;
+} 
+
+.edu .school .data-school a
+{
+
+color: #0863a6;
+border-radius: 12px;
+padding: 10px;
+text-decoration: underline;
+} 
+
+.edu .school .data-school a:hover
+{
+
+color: white;
+cursor: pointer;
+transition: 0.5sec;
+
+}
+/*-----work experience background----------*/
+.work{
+ margin-top: 530px;
+ padding: 10px;
+ height: 50vh;
+ 
+}
+.work .data-work .column{
+  background-color: #D9D9D9;
+  padding: 30px;
+  border-radius: 15px;
+  font-family:'Arial Narrow Bold';
+}
+/*-----skills----------*/
+.skills{
+  margin-top: 230px;
+  padding: 10px;
+  height: 50vh;
+  
+ }
+ .skills .g-skills{
+   background-color: #D9D9D9;
+   padding: 30px;
+   border-radius: 15px;
+   font-family:'Arial Narrow Bold';
+ }
