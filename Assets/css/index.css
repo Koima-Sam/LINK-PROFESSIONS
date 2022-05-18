@@ -35,3 +35,46 @@
 
 
 /* TRANSITION SECTION */
+#ldg-transition{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#ldg-transition > .trans{
+    display: flex;
+    height: 100vh;
+}
+
+#ldg-transition > .trans > .lefty > .righty{
+    width: 50%;
+}
+
+#ldg-transition > .trans > .lefty{
+    display: block;
+}
+
+#ldg-transition > .trans > .lefty > h2{
+    font-size: 50px;
+    color: #0863A6;
+    margin-left: 100px;
+    margin-right: 75px;
+}
+
+#ldg-transition > .trans > .lefty > p{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+#ldg-transition > .trans > button{
+    padding: 15px;
+    background-color: #0863A6;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#ldg-transition > .trans > .righty{
+    margin-right: 30px;
+    
+}
