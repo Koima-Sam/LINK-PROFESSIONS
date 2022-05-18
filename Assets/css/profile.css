@@ -25,17 +25,18 @@ nav h3{
 .right{
     margin-right: 100px;
     padding-top: 20px;
-color: #0863A6;}
+    color: #0863A6;
+}
 
 
-.pic{
+/* .pic{
     height: 100%;
     width: 300px;
-}
+} */
 .portfolio{
     margin-top: 120px;
     display: flex;
-    height: 70%;
+    height: 100%;
 }
 .info{
     width: 50%;
@@ -60,7 +61,10 @@ button{
     border-radius: 15px;
     cursor: pointer;
 }
-button:hover{
+button a{
+    color: black;
+}
+button a:hover{
     background-color: #D9D9D9;
     color: #0863A6;
 }
