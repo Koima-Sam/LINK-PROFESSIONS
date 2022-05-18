@@ -51,3 +51,6 @@ img{
     float: right;
     margin-top: 20px;
 }
+a{
+    text-decoration: none;
+}
