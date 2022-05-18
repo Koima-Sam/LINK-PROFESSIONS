@@ -20,7 +20,7 @@ input [type=submit] {
 input [type=submit]:hover{
     background-color: rgb(69, 160, 73);
 }
-div{
+.mainform{
     padding: 20px;
     border-radius: 5px;
     background-color: rgb(69, 160, 73);
