@@ -12,8 +12,6 @@
     background-color: white;
     display: flex;
     justify-content: space-around;
-    height: 60vh;
-    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -33,6 +31,8 @@ h1{
 }
 
 #landingnavigation > .kulia{
+    display: flex;
+    align-items: center;
 }
 
 #landingnavigation > .kulia > .ldg-navbutton{
@@ -42,10 +42,9 @@ h1{
     color: white;
     border-color: white;
     border-radius: 25px;
-    margin-top: 20px;
     font-size: 30px;
-    margin-right: 30px;
-    margin-left: 700px;
+    margin-right: 50px;
+    margin-left: 650px;
 }
 
 
@@ -57,7 +56,6 @@ h1{
 
 #ldg-transition > .trans{
     display: flex;
-    height: 100vh;
 }
 
 #ldg-transition > .trans > .lefty > .righty{
@@ -96,4 +94,44 @@ h1{
 #ldg-transition > .trans > .righty{
     margin-right: 30px;
     
+}
+
+
+/* COMMUNITY OUTREACH */
+#reach{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 10vh;
+}
+
+#reach > .span{
+    display: flex;
+}
+
+h3{
+    font-size: 55px;
+    color: #0863A6;
+    margin-left: 100px;
+    margin-right: 150px;
+    text-align: left;
+}
+
+.reachout{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 30%;
+}
+
+#reach > .span > .reachdata > ul > li{
+    display: inline-block;
+    padding: 10px;
+    color: black;
+
+}
+
+.reachdata{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
 }
