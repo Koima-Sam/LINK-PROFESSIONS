@@ -12,6 +12,9 @@
     background-color: white;
     display: flex;
     justify-content: space-around;
+    height: 60vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #landingnavigation > .kushoto, .kulia{
@@ -19,18 +22,30 @@
 }
 
 #landingnavigation > .kushoto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    color: #0863A6;
 }
 
 #landingnavigation > .kulia{
 }
 
 #landingnavigation > .kulia > .ldg-navbutton{
-    padding: 15px;
+    display: flex;
+    padding: 25px;
     background-color: #0863A6;
     color: white;
     border-color: white;
-    border-radius: 15px;
-    margin-top: 80px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-left: 700px;
 }
 
 
@@ -58,20 +73,24 @@
     color: #0863A6;
     margin-left: 100px;
     margin-right: 75px;
+    text-align: left;
 }
 
 #ldg-transition > .trans > .lefty > p{
-    font-size: 35px;
+    font-size: 32px;
     margin-left: 100px;
     margin-right: 80px;
+    text-align: left;
 }
 
-#ldg-transition > .trans > button{
-    padding: 15px;
+.getstarted{
+    padding: 25px;
+    font-size: 30px;
     background-color: #0863A6;
     color: white;
     border-color: white;
     border-radius: 15px;
+    margin-left: 350px;
 }
 
 #ldg-transition > .trans > .righty{
