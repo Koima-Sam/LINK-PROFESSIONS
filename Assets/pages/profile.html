@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="/Assets/css/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Design the nav bar -->
     <nav>
-      <img src="/Assets/images/profile-images/logo.jpeg" alt=""> 
-      <ul>
+        <div class="header">
+     <img src="/Assets/images/profile-images/logo.jpeg" class="left"> 
+      <h3>LINK PROFESSION</H3>
+        </div>
+      
+      <ul class="right">
           <li>HOME</li>
           <li>INFO</li>
           <li>EDU</li>
@@ -20,18 +25,18 @@
     </nav>
 
     <!-- Design the Portfolio -->
-    <div>
+    <div class="portfolio">
         <div class="info">
             <h1>Portfolio</h1>
-            <p>Hello, my name is <br>Lincolin O. Angaya <br>And I am a, <br>Software Developer</p>
+            <p>Hello, my name is <br>Lincolin O. Angaya <br>And I am a <br><span>Software Developer</span> </p>
             <button>View Profile</button>
         </div>
-        <img src="/Assets/images/profile-images/WhatsApp Image 2022-05-17 at 10.24.09 AM.jpeg" alt="">
+        <img src="/Assets/images/profile-images/WhatsApp_Image_2022-05-17_at_10.24.09_AM-removebg-preview.png" alt="">
     </div>
 
     <!-- Design the link section -->
     <footer>
-        <ul>
+        <ul class="links">
             <p>QUICK LINKS</p>
             <li>HOME</li>
             <li>INFO</li>
@@ -40,23 +45,25 @@
             <li>SKILLS</li>
         </ul>
 
-        <ul>
+        <ul class="contact">
             <p>CONTACT US</p>
-           <li><img src="/Assets/images/profile-images/phone.png"> 0748923237</li>
-           <li>079386208</li>
-           <li><img src="/Assets/images/profile-images/email.jpg"> lincolin5626@gmail.com</li>
-           <li><img src="/Assets/images/profile-images/pin.jpg"> Langata, Karen Center</li> 
+           <li><i class="fa fa-phone" id="phone"></i>  0748923237 / 079386208</li>
+           <li><i class="fa fa-envelope" id="mail"></i> lincolin5626@gmail.com</li>
+           <li><i class="fa fa-map-marker" id="pin"></i>  Langata, Karen Center</li> 
         </ul>
 
         <ul>
-            <p>FOLLOW ME</p>
-            <li><img src="/Assets/images/profile-images/twitter.jpg"> Twitter</li>
-            <li><img src="/Assets/images/profile-images/ig.jpg"> Instagram</li>
-            <li><img src="/Assets/images/profile-images/tweet.png"> Facebook</li>
+            <p>FOLLOW US ON:</p>
+            <li><i class="fa fa-twitter" id="twe"> </i>  TWITTER</li>
+            <li><i class="fa fa-instagram" id="ig"></i>     INSTAGRAM</li>
+            <li><i class="fa fa-facebook-f" id="fb">  </i>  FACEBOOK</li>
         </ul>
+       
     </footer>
 
+    
     <!-- Design the footer -->
-    <p>Copyright <img src="/Assets/images/profile-images/cprt.jpg" alt=""> | All Rights Reserved</p>
+        <p class="cprt">Copyright &#169; | All Rights Reserved</p>
+
 </body>
 </html>
