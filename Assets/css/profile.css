@@ -1,0 +1,119 @@
+nav{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+nav h3{
+    font-weight: 500;
+    color: #0863A6;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 100px;
+}
+.right li{
+    display: inline;
+    padding: 20px;
+}
+.right{
+    margin-right: 100px;
+    padding-top: 20px;
+color: #0863A6;}
+
+
+.pic{
+    height: 100%;
+    width: 300px;
+}
+.portfolio{
+    margin-top: 120px;
+    display: flex;
+    height: 70%;
+}
+.info{
+    width: 50%;
+    padding: 0px;
+}
+.info h1{
+    padding: 0px 10px;
+}
+.info p{
+    padding: 50px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+button{
+    background-color: #0863A6;
+    color: white;
+    padding: 20px;
+    width: 180px;
+    margin-left: 50px;
+    font-size: medium;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #D9D9D9;
+    color: #0863A6;
+}
+span{
+    color: #0863A6;
+}
+.portfolio img{
+    margin-left: 100px;
+}
+
+footer{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #D9D9D9;
+}
+
+.links li{
+    text-decoration: none;
+    padding: 8px;
+    color: #0863A6;
+}
+.contact img{
+    width: 30px;
+}
+.follow{
+    width: 30px;
+}
+#fb, #twe{
+    color: #0863A6;
+    padding: 15px;
+}
+#ig{
+    color: rgb(193,62,107);
+    padding: 15px;
+}
+li{
+    list-style: none;
+}
+#phone{
+    color: #0863A6;
+    padding: 15px;
+}
+#mail{
+    color: #0863A6;
+    padding: 15px;
+}
+#pin{
+    color: #0863A6;
+    padding: 15px;
+}
+.cprt{
+   display: block;
+   font-weight: lighter;
+    margin-left: 40%;
+}
