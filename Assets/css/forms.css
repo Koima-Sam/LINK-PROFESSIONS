@@ -1,3 +1,8 @@
+
+body{
+    background-color: white;
+    background-image: url(/Assets/images/forms-images/_.jpeg);
+}
 input[type=text], select {
     width: 100%;
     border: 1px solid rgb(204,204,204);
@@ -6,6 +11,7 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 8px 0px;
     display: inline-block;
+    
 }
 #email{
     width: 100%;
@@ -19,6 +25,7 @@ input[type=text], select {
     border-radius: 5px;
     border: 1px solid #0863A6;
     position: absolute;
+    background-color: white;
     left: 300px;
     right: 300px;
 }
