@@ -42,15 +42,15 @@ function valUsers(){
     }
     else{
         if(document.login_form.userEmail.value==users.user1.email && document.login_form.userPassword.value == users.user1.pass){
-            alert("Login sucessful");
-            
+            window.open("profile.html");
+
         }
         else if(document.login_form.userEmail.value==users.user2.email && document.login_form.userPassword.value == users.user2.pass){
-            alert("Login sucessful");
+            window.open("profile.html");
 
         }
         else if(document.login_form.userEmail.value==users.user3.email && document.login_form.userPassword.value == users.user3.pass){
-            alert("Login sucessful");
+            window.open("profile.html");
     
         }
         else{
@@ -96,6 +96,7 @@ function createUser(){
         // obj.password = document.Register.userPassword.value;
         
         // Object.assign(users.password,)
+        wwindow.open("profile.html");
     }
 
 }
