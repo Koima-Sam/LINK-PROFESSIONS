@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header, .logo {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1.4;
+}
+.header > .header-text{
+    padding-left: 200px;
+}
+
+.header > .logo > a > img{
+    height: 60px;
+}
+.header > .logo{
+    padding-right: 200px;
+    margin-left: 200px;
+}
+.header > .logo >h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0863A6;
+    position: relative;
+    top: 0px;
+
+}
+
+.signup{
+    width: 300px;
+
+}
+
+.txtinput{
+    width: 100%;
+    margin: 20px 20px;
+    padding: 10px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    outline: none;
+    background: transparent;
+}
+
+.form-container{
+    margin: 40px 500px 40px 300px;
+}
+
+#register, #login{
+    text-align: center;
+    margin: 50px 100px;
+    background-color: #0863A6;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+.sign > a{
+    text-decoration: none;
+    color: #0863A6;
+
+
+}
+
+.sign-up > i,h3{
+    position: relative;
+    top:50px;
+    left: 0;
+    color: #0863A6;
+
+}
+
+p{
+    margin-left: 50px;
+}
+h3{
+    color: black;
+}
+.social{
+    margin-top:20px;
+    align-items: center;
+    padding-left: 70px;
+    
+
+}
+
+.social > img{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 60px;
+
+}
+.sign-in > i{
+    position: relative;
+    top:50px;
+    margin-right: 10px;
+    left: 0;
+    color: #0863A6;
+
+}
