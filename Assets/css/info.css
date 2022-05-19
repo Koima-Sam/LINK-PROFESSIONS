@@ -1,0 +1,438 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+h2{
+  color: #0863a6;
+  padding: 12px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+h4{
+  color: #0863a6;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+/*--header-----*/
+.header{
+
+  top: 0px;
+ 
+  width: 100%;
+  height: 60vh;
+  box-shadow: 7px 10px #888888;
+}
+/*--navigation bar-----*/
+.header .head .nav-bar{
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.header .head .nav-bar .logo img{
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+}
+header .head .nav-bar .logo {
+  display: inline-block;
+}
+.header .head .nav-bar .logo h2{
+font-size: 20px;
+padding-top: 0px;
+ 
+
+}
+ 
+.header .head .nav-bar nav ul li{
+  display: inline-block;
+  padding: 25px;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  padding-top: 29px;
+  color: #0863a6;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
+  font-weight: bolder;
+  }
+  .header .head .nav-bar nav ul li a{ 
+   text-decoration: none;
+   color: #0863a6;
+  
+  }
+  .header .head .nav-bar nav ul li a:hover{ 
+
+    color: #D9D9D9;
+   
+   }
+  .header .head .nav-bar nav ul li:hover{
+    color: #D9D9D9;
+    
+    }
+
+  .header .head .container{
+    display: flex;
+    margin-left: 24px;
+    gap: 400px;
+    align-items: center;
+  }
+  
+
+   
+  .header .head .container h1{
+    color: #0863a6;
+    padding: 25px;
+    padding-bottom: 0px;
+    font-size: 33px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    
+  }
+  .header .head .container p{
+    top: 15px;
+    padding-top: 0px;
+    padding: 25px;
+    padding-bottom:0px;
+    font-size: 23px;
+    line-height: 2;
+    font-family:'Arial Narrow Bold';
+    
+  }
+  .header .head .container .select ul .list {
+  padding: 15px;
+  color: #0863a6;
+  font-weight: 32px;
+  font-size: 22px;
+
+  }
+  /* .header .head .container .select ul .download {
+    padding: 10px;
+    color: #0863a6;
+    font-weight: 32px;
+    font-size: 22px;
+  
+    } */
+    .select ul li  {
+      color: #0863a6;
+      list-style: none;
+    
+      }
+  .header .head .container .select ul .list form .btn{
+    background-color: #0863a6;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size:20px;
+  
+    }
+    .header .head .container .select ul .list form .btn:hover{
+     cursor: pointer;
+     background-color:#D9D9D9;
+     color: #0863a6;
+      }
+    .header .head .container .select ul .list form .type{
+      padding: 5px;
+      color: black;
+      border-radius: 5px;
+      font-size:16px;
+    
+      }
+      /*-----DOWNLOAD DROPDOWN--------*/
+      .header .head .container .select ul ul{
+        position: absolute;
+        color: black;
+
+      }
+      .header .head .container .select ul ul li a:hover{
+        color: #D9D9D9;
+      }
+   
+    .header .head .container.select ul .download {
+    color: #0863a6;
+    text-decoration: none;
+    font-size: 43px;
+    list-style: none;
+  }
+  
+ 
+   
+/*-----job sections---------*/
+.jobs{
+  margin-top: 2px;
+  padding: 10px;
+  height: 60vh;
+
+}
+.jobs .job-1 {
+ padding: 12px;
+ margin: 10px;
+ background-color: #D9D9D9;
+}
+.jobs .job-1 .images{
+  display: flex;
+ padding: 12px;
+ margin: 15px;
+ 
+ 
+}
+.jobs .job-1 .images .logo img{
+
+ width: 150px;
+ height: 100px;
+ justify-content: space-between;
+ 
+}
+
+.jobs .job-1 .images .logo{
+  border-radius: 12px;
+ padding: 17px;
+ margin: 15px;
+ background-color: white;
+ box-shadow: 7px 10px #888888;
+}
+.jobs .job-1 h1{
+  color: #0863a6;
+ font-size: 33px;
+ font-weight: lighter;
+ }
+ .jobs .job-1 p{
+
+ font-size: 23px;
+ }
+.jobs .job-1 .images .logo a{
+  gap: 3px;
+  color:white; 
+  background-color: #0863a6;
+  padding: 10px;
+  margin-top: 16px;
+  border-radius: 7px;
+  
+ }
+ .jobs .job-1 .images .logo a:hover{
+   color: #0863a6;
+   background-color: #D9D9D9;
+ }
+ 
+
+/*-----bio data----------*/
+.bio
+{
+  padding: 10px;
+  margin: 10px;
+  height: 50vh;
+}
+.bio .data 
+{
+ margin-top: 29px;
+    
+}
+.bio .data .dat
+{
+  display: flex;
+  background-color: #D9D9D9;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 15px;
+  font-family:'Arial Narrow Bold';
+  align-items: center;
+    
+}
+.bio .data .dat .dat-1
+{
+  padding: 23px;
+  align-items: center;
+    
+}
+.bio .data .dat .data-1 ul li
+{
+  padding: 23px;
+  align-items: center;
+  font-size: 35px;
+    
+}
+.bio .data .dat .data-2 ul li
+{
+  padding: 23px;
+  align-items: center;
+  font-size: 35px;
+    
+}
+/*-----educationa background----------*/
+
+.edu
+{
+  padding: 25px;
+  margin: 10px;
+  height: 50vh;
+}
+.edu .school
+{
+  background-color: #D9D9D9;
+  padding: 25px;
+  border-radius: 15px;
+  font-family:'Arial Narrow Bold';
+
+}
+.edu .school .data-school
+{
+  display :flex;
+  padding: 22px;
+  
+}
+.edu .school .data-school h5
+{
+
+padding: 20px;
+font-size: 30px;
+border: 1px solid white;
+border-radius: 12px;
+font-weight: lighter;
+box-shadow: 7px 10px #888888;
+} 
+
+.edu .school .data-school a
+{
+
+color: #0863a6;
+border-radius: 12px;
+padding: 10px;
+text-decoration: underline;
+} 
+
+.edu .school .data-school a:hover
+{
+
+color: white;
+cursor: pointer;
+transition: 0.5sec;
+
+}
+/*-----work experience background----------*/
+.work{
+ margin-top: 530px;
+ padding: 10px;
+ height: 50vh;
+ 
+}
+.work .data-work {
+  background-color: #D9D9D9;
+  padding: 25px;
+  border-radius: 15px;
+  font-family:'Arial Narrow Bold';
+}
+.work .data-work .row-1 .flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.work .data-work .row-1, .row-2 p{
+  font-size: 30px;
+  padding: 12px;
+}
+.work .data-work .row-1 .flex .details ul{
+  border: 1px solid white;
+  padding: 12px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 7px 10px #888888;
+ 
+}
+
+.work .data-work .row-1 .flex .right ul{
+  border: 1px solid white;
+  padding: 12px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 7px 10px #888888;
+}
+.work .data-work .row-2 .flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  align-items: center;
+}
+.work .data-work .row-2 .flex .details ul{
+  border: 1px solid white;
+  padding: 12px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 7px 10px #888888;
+ 
+}
+.work .data-work .row-2,.row-1, .flex .details ul li{
+  font-size: 32px;
+  padding: 10px;
+
+}
+.work .data-work .row-2,.row-1,.flex .right ul li{
+  font-size: 32px;
+  padding: 10px;
+
+}
+
+
+.work .data-work .row-2 .flex .right ul{
+  border: 1px solid white;
+  padding: 12px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 7px 10px #888888;
+}
+/*-----skills----------*/
+.skills{
+  margin-top: 690px;
+  padding: 10px;
+  height: 60vh;
+  
+  
+ }
+ .skills .data-skills{
+   background-color: #D9D9D9;
+   padding: 30px;
+   border-radius: 15px;
+   font-family:'Arial Narrow Bold';
+ }
+ .skills .data-skills .g-skills{
+  padding: 12px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 7px 10px #888888;
+}
+.skills .data-skills .g-skills ul li{
+font-size: 25px;
+padding: 13px;
+}
+.skills .data-skills .s-skills{
+  padding: 12px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 7px 10px #888888;
+  margin-top: 45px;
+}
+.skills .data-skills .s-skills ul li{
+font-size: 25px;
+padding: 13px;
+}
+
