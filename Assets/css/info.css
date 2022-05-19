@@ -66,6 +66,7 @@ padding-top: 0px;
   display: inline-block;
   padding: 25px;
   align-items: center;
+  list-style: none;
   text-align: center;
   padding-top: 29px;
   color: #0863a6;
@@ -77,6 +78,7 @@ padding-top: 0px;
   .header .head .nav-bar nav ul li{
    text-decoration: none;
    color: #0863a6;
+  
   }
 
   .header .head .nav-bar nav ul li:hover{
@@ -119,13 +121,13 @@ padding-top: 0px;
   font-size: 22px;
 
   }
-  .header .head .container .select ul .download {
+  /* .header .head .container .select ul .download {
     padding: 10px;
     color: #0863a6;
     font-weight: 32px;
     font-size: 22px;
   
-    }
+    } */
     .select ul li  {
       color: #0863a6;
       list-style: none;
@@ -152,19 +154,35 @@ padding-top: 0px;
       font-size:16px;
     
       }
-     
+      /*-----DOWNLOAD DROPDOWN--------*/
+      .header .head .container .select ul ul{
+        position: absolute;
+        color: black;
+
+      }
+      .header .head .container .select ul ul li a:hover{
+        color: white;
+      }
+   
+    .header .head .container.select ul .download {
+    color: #0863a6;
+    text-decoration: none;
+    font-size: 43px;
+    list-style: none;
+  }
+  
+ 
    
 /*-----job sections---------*/
 .jobs{
-  margin-top: 30px;
+  margin-top: 2px;
   padding: 10px;
-  height: 50vh;
+  height: 60vh;
 
 }
 .jobs .job-1 {
-  display: flex;
  padding: 12px;
- margin: 15px;
+ margin: 10px;
  background-color: #D9D9D9;
 }
 .jobs .job-1 .images{
@@ -183,6 +201,7 @@ padding-top: 0px;
 }
 
 .jobs .job-1 .images .logo{
+  border-radius: 12px;
  padding: 17px;
  margin: 15px;
  background-color: white;
@@ -190,6 +209,12 @@ padding-top: 0px;
 }
 .jobs .job-1 h1{
   color: #0863a6;
+ font-size: 33px;
+ font-weight: lighter;
+ }
+ .jobs .job-1 p{
+
+ font-size: 23px;
  }
 .jobs .job-1 .images .logo a{
   gap: 3px;
@@ -212,6 +237,11 @@ padding-top: 0px;
   padding: 10px;
   margin: 10px;
   height: 50vh;
+}
+.bio .data 
+{
+ margin-top: 29px;
+    
 }
 .bio .data .dat
 {
