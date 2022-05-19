@@ -50,7 +50,7 @@ nav h3{
     font-size: xx-large;
     font-weight: lighter;
 }
-button{
+.button{
     background-color: #0863A6;
     color: white;
     padding: 20px;
@@ -61,10 +61,10 @@ button{
     border-radius: 15px;
     cursor: pointer;
 }
-button a{
-    color: black;
+.button {
+    color: white;
 }
-button a:hover{
+.button:hover{
     background-color: #D9D9D9;
     color: #0863A6;
 }
@@ -91,7 +91,7 @@ footer{
     width: 30px;
 }
 .follow{
-    width: 30px;
+    padding-left: 0px;
 }
 #fb, #twe{
     color: #0863A6;
