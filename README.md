@@ -34,29 +34,29 @@ Link profession is website application to help profession get hired and also hir
    ## login Page
    This page is used to login to the user profile once you provide correct credentials
 
-  ![]()
+  ![](https://github.com/Koima-Sam/LINK-PROFESSIONS/blob/master/Assets/images/login.png)
 
 
 
    ## sign up page
    This page is used for the frst time users to our website
 
-   ![]()
+   ![](https://github.com/Koima-Sam/LINK-PROFESSIONS/blob/master/Assets/images/signup.png)
 
    ## form page
    This page enables new user to provide his/her neccessary details for the portfolio
 
-   ![]()
+   ![](https://github.com/Koima-Sam/LINK-PROFESSIONS/blob/master/Assets/images/form.png)
 
    ## profile page
    This page is available to user and other user on internet so that they can view you portfolio.
 
-   !![]()
+   !![](https://github.com/Koima-Sam/LINK-PROFESSIONS/blob/master/Assets/images/profilepage.png)
 
    ## info page
    This page has different section that you as user can view and modify while for other users its a ReadOnly.
 
-   ![]()
+   ![](https://github.com/Koima-Sam/LINK-PROFESSIONS/blob/master/Assets/images/information.png)
 
 
    ## Technologies Used
