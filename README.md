@@ -13,7 +13,7 @@ Link profession is website application to help profession get hired and also hir
   
    ## Installlation and set Up
    Open your browser and open the link.
-   Link to access the website : 
+   Link to access the website : https://koima-sam.github.io/LINK-PROFESSIONS/
    
 
    ## Requirements
