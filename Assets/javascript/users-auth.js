@@ -65,10 +65,10 @@ function valUsers(){
 //Validate users Registering
 //Declaring the create user function
 function createUser(){
-    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if(document.Register.fullname.value == ""){
         alert("Please indicate your full name!");
         document.Register.fullname.focus();
+        return false
 
     }
     else if(document.Register.userEmail.value == ""){
@@ -96,7 +96,8 @@ function createUser(){
         // obj.password = document.Register.userPassword.value;
         
         // Object.assign(users.password,)
-        wwindow.open("profile.html");
+        window.open("forms.html");
+        
     }
 
 }
