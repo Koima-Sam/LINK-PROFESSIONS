@@ -1,7 +1,7 @@
 
 body{
     background-color: white;
-    background-image: url(/Assets/images/forms-images/_.jpeg);
+    background-image: url(../images/forms-images/_.jpeg);
 }
 input[type=text], select {
     width: 100%;
