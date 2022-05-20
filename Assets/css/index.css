@@ -1,0 +1,242 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+nav h1{
+    color: #0863A6;
+    font-size: 40px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ryt li{
+    display: inline;
+    padding-top: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.ryt li a {
+    display: inline;
+    padding-right: 40px;
+    text-decoration: none;
+    list-style: none;
+    color: #0863A6;
+    font-size: 25px;
+}
+.ryt{
+    margin-right: 50px;
+    color: #0863A6;
+    display: flex;
+    align-items: center;
+
+}
+
+/* TRANSITION SECTION */
+#ldg-transition{
+    margin-top: 170px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#ldg-transition > .trans{
+    display: flex;
+    box-shadow: 7px 10px #888888;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+#ldg-transition > .trans > .lefty > .righty{
+    width: 50%;
+}
+
+#ldg-transition > .trans > .lefty{
+    display: block;
+    width: 50%;
+}
+
+#ldg-transition > .trans > .lefty > h2{
+    font-size: 40px;
+    color: #0863A6;
+    margin-left: 100px;
+    margin-right: 75px;
+    text-align: left;
+}
+
+#ldg-transition > .trans > .lefty > p{
+    font-size: x-large;
+    margin-left: 100px;
+    margin-right: 80px;
+    text-align: left;
+}
+
+    
+.getstarted > a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.getstarted{
+    padding: 25px;
+    font-size: 20px;
+    background-color: #0863A6;
+    color: white;
+    border:none;
+    border-radius: 15px;
+    margin-left: 350px;
+}
+
+#ldg-transition > .trans > .righty{
+    margin-right: 30px;
+    
+}
+
+
+/* COMMUNITY OUTREACH */
+#reach{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 40vh;
+}
+
+#reach > .span{
+    display: flex;
+   
+}
+
+h3{
+    font-size: 25px;
+    color: #0863A6;
+    margin-left: 100px;
+    margin-right: 150px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.reachout{
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 20%;
+}
+
+#reach > .span > .reachdata > ul > li{
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    gap: 90px;
+    margin-left: 100px;
+
+    
+
+}
+
+.reachdata{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 0px;
+    padding: 50px,10px, 50px, 10px;
+}
+
+/* PARTNERS */
+#partna{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30vh;
+}
+
+.partners{
+    display: flex;
+    
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.logobox{
+    background-color: #d9d9d9;
+    margin: 20px;
+    border: 1px solid black;
+    box-shadow: 7px 10px #888888;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* REVIEWS */
+#reviews{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#reviews > .tcolumns{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+}
+
+#reviews > .tcolumns > .samesame{
+    display: flex;
+    background-color: #d9d9d9;
+    margin: 20px;
+    border: 1px solid white;
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+}
+#reviews > .tcolumns > .samesame .ls p{
+
+}
+
+
+#reviews > .tcolumns > .samesame > .ls > p{
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    margin-right: 70px; 
+    text-align: left;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.rs{
+    margin: 20px;
+
+}
+
+.pat h3{
+    margin-left: 100px;
+}
