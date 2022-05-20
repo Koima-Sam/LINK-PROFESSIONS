@@ -91,12 +91,19 @@ nav h1{
     text-align: left;
 }
 
+    
+.getstarted > a{
+    text-decoration: none;
+    color:white;
+
+}
+
 .getstarted{
     padding: 25px;
     font-size: 20px;
     background-color: #0863A6;
     color: white;
-    border-color: white;
+    border:none;
     border-radius: 15px;
     margin-left: 350px;
 }
